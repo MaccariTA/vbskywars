@@ -1,0 +1,23 @@
+# Configuration file for VBSkywars #
+# Supported db.type types: sqlite
+# db.filename is only relevant to sqlite.
+# hub.* represents the hub spawn point. You can use '/vbsw sethub' ingame.
+# game.* represents game configuration.
+
+db:
+  type: sqlite
+  # The name of the database file. Relevant for sqlite.
+  filename: db.sqlite
+
+# This represents the hub spawn point. use '/vbsw sethub'
+hub:
+  world: world
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  yaw: 0.0
+  pitch: 0.0
+
+# Game countdown time (in seconds)
+game:
+  countdown: 10

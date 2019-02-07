@@ -1,0 +1,7 @@
+name: VBSkywars
+main: net.maccarita.vbskywars.VBSkywars
+version: 1.0
+api-version: 1.13
+commands:
+    vbsw:
+      description: The main VBSkywars command.
